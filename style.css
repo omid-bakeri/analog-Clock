@@ -1,0 +1,77 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(52, 161, 234);
+}
+
+#clock {
+    width: 500px;
+    height: 500px;
+    border: 10px solid rgb(255, 124, 36);
+    border-radius: 50%;
+    margin: 60px auto;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    background-image: url("images/98.png");
+    background-size: cover;
+}
+
+#hour {
+    width: 10px;
+    height: 120px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: absolute;
+    top: calc(250px - 120px);
+    left: 245px;
+    transform-origin: bottom;
+}
+
+#minute {
+    width: 8px;
+    height: 160px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: absolute;
+    top: calc(250px - 160px);
+    left: 245px;
+    transform-origin: bottom;
+}
+
+#second {
+    width: 5px;
+    height: 190px;
+    background-color: rgb(240, 27, 27);
+    border: 2px solid rgb(240, 27, 27);
+    border-radius: 20px;
+    position: absolute;
+    top: calc(250px - 190px);
+    left: 245px;
+    transform-origin: bottom;
+}
+
+#center {
+    color: black;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    left: calc(250px - 10px);
+    top: calc(250px - 10px);
+    position: absolute;
+}
+
+
+/* #oclock {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: -80px;
+    padding: 0px 10px 30px 10px;
+    font: 500;
+    font-family: 'byekan';
+    font-size: 30px;
+} */
